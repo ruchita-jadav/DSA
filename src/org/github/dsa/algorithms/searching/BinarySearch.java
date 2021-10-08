@@ -2,7 +2,8 @@ package org.github.dsa.algorithms.searching;
 
 public class BinarySearch {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        Thread.sleep(10000000);
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         searchIterative(arr, -5);
         searchRecursive(arr, 0, 9, -2);

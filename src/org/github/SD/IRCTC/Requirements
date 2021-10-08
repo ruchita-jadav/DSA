@@ -1,0 +1,38 @@
+Question : Create an api to book a train with various search query features.
+
+------------------------------------
+Information :
+------------------------------------
+1. Train is with train_number.
+2. Stations with station_id
+3. Train route is train_route_id is list of stations where train runs.
+4. Train seat arrangement ->
+        No of coach
+        Types of seat : seating , sleeper , AC , NON AC
+        Classes of seats : first, second, third
+5. Train running time. ( Can take 2 days to reach destination from source ) .
+    Sol : For 2nd day start counting hours 24 onwards like 25, 26, .... means
+6. Seat availability. -> Total seat and coach vise seat
+7. select seat & book it.
+8. Payment service
+    Notification service
+    cancel service
+
+------------------------------------
+Search Queries :
+------------------------------------
+1. getTrainSchedule (Train_id) -> list of all stations with arrival and departure time
+2. searchTrainBetween ( Source_Station , destination_station )
+3. searchTrainDuring ( source_station, destination_station, from_date, to_Date)
+4. select
+
+------------------------------------
+Capacity calculation :
+------------------------------------
+
+* Total user : 54 M
+* Daily new user addition : 28 K
+
+------------------------------------
+Resources & Links :
+------------------------------------

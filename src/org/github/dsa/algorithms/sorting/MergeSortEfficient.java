@@ -22,7 +22,7 @@ public class MergeSortEfficient {
 
     private static void merge(int[] input, int[] aux, int start, int mid, int end) {
         int midp = mid;
-        for (int k = start; k < end + 1; k++) {
+        for (int k = start; k <= end ; k++) {
             if ( start >= mid) {
                 input[k] = aux[midp++];
             } else if (midp > end) {
